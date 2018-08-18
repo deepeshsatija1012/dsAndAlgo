@@ -63,4 +63,50 @@ public class SoringTest {
         Sorting.shellsort(arr2);
         Assert.assertTrue(Sorting.isSorted(arr2));
     }
+
+    @Test
+    public void mergeSortTest(){
+        Integer[] arr = new Integer[]{20, 40, 10, 70, 30, 50, 60, 80, 90};
+        Sorting.mergesort(arr);
+        Assert.assertTrue(Sorting.isSorted(arr));
+
+        Integer[] arr1 = new Integer[]{20, 40, 10, 70, 30, 50, 60, 80, 90, 10};
+        Sorting.mergesort(arr1);
+        Assert.assertTrue(Sorting.isSorted(arr1));
+
+        Integer[] arr2 = new Integer[]{40, 20};
+        Sorting.mergesort(arr2);
+        Assert.assertTrue(Sorting.isSorted(arr2));
+    }
+
+    @Test
+    public void mergeSortSequentialTest(){
+        Integer[] arr = new Integer[]{20, 40, 10, 70, 30, 50, 60, 80, 90};
+        Sorting.mergesortsequenctial(arr);
+        Assert.assertTrue(Sorting.isSorted(arr));
+
+        Integer[] arr1 = new Integer[]{20, 40, 10, 70, 30, 50, 60, 80, 90, 10};
+        Sorting.mergesortsequenctial(arr1);
+        Assert.assertTrue(Sorting.isSorted(arr1));
+
+        Integer[] arr2 = new Integer[]{40, 20};
+        Sorting.mergesortsequenctial(arr2);
+        Assert.assertTrue(Sorting.isSorted(arr2));
+    }
+
+    @Test
+    public void quickSortTest(){
+        Integer[] arr = new Integer[]{20, 40, 10, 70, 30, 50, 60, 80, 90};
+        Sorting.quicksort(arr);
+        Assert.assertTrue(Sorting.isSorted(arr));
+
+        Integer[] arr1 = new Integer[]{20, 40, 10, 70, 30, 50, 60, 80, 90, 10};
+        Sorting.quicksort(arr1);
+        Assert.assertTrue(Sorting.isSorted(arr1));
+
+        Integer[] arr2 = new Integer[]{40, 20};
+        Sorting.quicksort(arr2);
+        Assert.assertTrue(Sorting.isSorted(arr2));
+    }
+
 }
