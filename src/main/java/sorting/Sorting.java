@@ -145,6 +145,28 @@ public class Sorting {
         return j;
     }
 
+    public static void quicksortstable(Comparable[] arr){
+        quickSort(arr, 0, arr.length-1);
+        System.out.println("quicksortstable.isSorted("+ Arrays.toString(arr)+") : "+isSorted(arr));
+    }
+
+    public void quickSortStable(Comparable[] arr, int lo, int hi){
+        if(hi<=lo) return;
+        int lt = lo, gt = hi;
+        Comparable v = arr[lo];
+        int i = lo;
+        while(i<=gt){
+            int cmp = arr[i].compareTo(v);
+            if(cmp<0)  exch(arr, i++, lt++);
+            else if(cmp>0) exch(arr, i, gt--);
+            else i++;
+        }
+        quickSortStable(arr, lo, lt-1);
+        quickSortStable(arr, gt+1, hi);
+
+
+    }
+
     public static Comparable findkthSmallest(Comparable[] arr, int k){
         int lo = 0, hi = arr.length-1;
         while(lo<hi){

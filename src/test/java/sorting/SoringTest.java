@@ -109,4 +109,19 @@ public class SoringTest {
         Assert.assertTrue(Sorting.isSorted(arr2));
     }
 
+    @Test
+    public void quickSortStableTest(){
+        Integer[] arr = new Integer[]{20, 40, 10, 70, 30, 50, 60, 80, 90};
+        Sorting.quicksortstable(arr);
+        Assert.assertTrue(Sorting.isSorted(arr));
+
+        Integer[] arr1 = new Integer[]{20, 40, 10, 70, 30, 50, 60, 80, 90, 10};
+        Sorting.quicksortstable(arr1);
+        Assert.assertTrue(Sorting.isSorted(arr1));
+
+        Integer[] arr2 = new Integer[]{40, 20};
+        Sorting.quicksortstable(arr2);
+        Assert.assertTrue(Sorting.isSorted(arr2));
+    }
+
 }

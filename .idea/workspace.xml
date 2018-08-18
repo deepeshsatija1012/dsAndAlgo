@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f9665f6-fc1d-437d-95c1-27c3b02af2b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sorting/SoringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/SoringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sorting/SoringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sorting/SoringTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,13 +26,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4182" />
+          <entry key="java" value="4544" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4182" />
+          <entry key="JAVA" value="4544" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -69,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/Sorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="156" column="5" lean-forward="true" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+            <state relative-caret-position="154">
+              <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -78,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sorting/SoringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="157">
+              <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,7 +218,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534615611644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534616560242" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -350,9 +346,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SoringTest - 2018.08.15 at 21h 21m 41s.xml">
-      <configuration name="SoringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SoringTest - 2018.08.18 at 17h 03m 00s.xml">
       <configuration name="SoringTest" configurationId="JUnit" />
     </history-entry>
@@ -380,6 +373,9 @@
     <history-entry file="SoringTest - 2018.08.18 at 23h 05m 28s.xml">
       <configuration name="SoringTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SoringTest - 2018.08.18 at 23h 51m 57s.xml">
+      <configuration name="SoringTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +391,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +400,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sorting/SoringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="157">
+          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -509,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/Sorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="156" column="5" lean-forward="true" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+        <state relative-caret-position="154">
+          <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
         </state>
       </provider>
     </entry>
