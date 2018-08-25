@@ -177,4 +177,36 @@ public class Sorting {
         }
         return arr[k];
     }
+
+    public static void heapsort(Comparable[] arr){
+        createHeap(arr);
+        int N = arr.length-1;
+        for(int i=arr.length-1;i>1;i--){
+            exch(arr, i, 1);
+            sink(arr, 1, --N);
+        }
+
+        System.out.println("heapsort.isSorted("+ Arrays.toString(Arrays.copyOfRange(arr, 1, arr.length))+") : "+isSorted(Arrays.copyOfRange(arr, 1, arr.length)));
+    }
+
+    private static void createHeap(Comparable[] arr){
+        //Since we crate an array with size N+1 to simplify calculation
+        int N = arr.length-1;
+        for(int k=N/2;k>=1;k--){
+            sink(arr, k, N);
+        }
+    }
+
+    private static void sink(Comparable[] arr, int i, int N){
+        int k=i;
+        while(2*k<=N){
+            int j = 2*k;
+            if(j<N && less(arr[j], arr[j+1])) j++;
+            if(!less(arr[k], arr[j])) break;
+            exch(arr, j, k);
+            k = j;
+        }
+    }
+
+
 }

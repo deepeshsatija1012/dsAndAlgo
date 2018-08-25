@@ -3,6 +3,8 @@ package sorting;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class SoringTest {
     @Test
     public void bubbleSortTest(){
@@ -122,6 +124,22 @@ public class SoringTest {
         Integer[] arr2 = new Integer[]{40, 20};
         Sorting.quicksortstable(arr2);
         Assert.assertTrue(Sorting.isSorted(arr2));
+    }
+
+    @Test
+    public void heapSortTest(){
+        Integer[] arr = new Integer[]{null, 20, 40, 10, 70, 30, 50, 60, 80, 90};
+        Sorting.heapsort(arr);
+        Assert.assertTrue(Sorting.isSorted(Arrays.copyOfRange(arr, 1, arr.length)));
+
+        Integer[] arr1 = new Integer[]{null, 20, 40, 10, 70, 30, 50, 60, 80, 90, 10};
+        System.out.println("Initial Array : " + Arrays.toString(Arrays.copyOfRange(arr1, 1, arr1.length)));
+        Sorting.heapsort(arr1);
+        Assert.assertTrue(Sorting.isSorted(Arrays.copyOfRange(arr1, 1, arr1.length)));
+
+        Integer[] arr2 = new Integer[]{null, 40, 20};
+        Sorting.heapsort(arr2);
+        Assert.assertTrue(Sorting.isSorted(Arrays.copyOfRange(arr2, 1, arr2.length)));
     }
 
 }
