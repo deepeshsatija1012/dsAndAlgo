@@ -1,9 +1,9 @@
 package symboltables.bst;
 
-import symboltables.SymbolTable;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import symboltables.SymbolTable;
 
 public class BST<Key extends Comparable<Key>, Value> implements SymbolTable<Key, Value> {
 
@@ -210,7 +210,7 @@ public class BST<Key extends Comparable<Key>, Value> implements SymbolTable<Key,
 
         if(cmp<0) return rank(node.getLeft(), key);
         else if(cmp>0) return 1 + size(node.getLeft()) + rank(node.getRight(), key);
-        else size(node.getLeft());
+        else return size(node.getLeft());
     }
 
     /**
